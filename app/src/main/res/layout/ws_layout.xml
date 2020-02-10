@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutinfos"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleinfos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/reed"
+        android:text="@string/informations_du_profil"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nominfos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donner_nom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/prenominfos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donner_prenom"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/genderinfos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sexe"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/emailinfos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/donner_mail"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+</LinearLayout>
